@@ -30,3 +30,4 @@ jobs:
         continue-on-error: true # or the Snyk Action will fail when vulnerabilities are found
         env:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
+
